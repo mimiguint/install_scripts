@@ -9,9 +9,8 @@ sudo apt-get install -y \
   lua5.2 \
   lua5.2-dev \
   luajit \
-  python-dev \
-  python3-dev \
-  ruby-dev
+  libperl-dev \
+  python3-dev
 
 # get vim
 #
@@ -30,9 +29,8 @@ sudo ./configure \
   --enable-fontset \
   --enable-fail-if-missing \
   --prefix=/usr/local \
-  --enable-pythoninterp=dynamic \
+  --enable-perlinterp=dynamic \
   --enable-python3interp=dynamic \
-  --enable-rubyinterp=dynamic
 
 sudo make
 sudo make install

@@ -30,7 +30,7 @@ sudo ./configure \
   --enable-fail-if-missing \
   --prefix=/usr/local \
   --enable-perlinterp=dynamic \
-  --enable-python3interp=dynamic \
+  --enable-python3interp=dynamic
 
 sudo make
 sudo make install
